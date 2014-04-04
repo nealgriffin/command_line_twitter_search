@@ -54,16 +54,12 @@ def twitter_search(queries, twitter_api, q, max_results=200, **kw):
 	  	  	 break
 	  return statuses
 
-# XXX: Go to http://dev.twitter.com/apps/new to create an app and get values
-# for these credentials, which you'll need to provide in place of these
-# empty string values that are defined as placeholders.
-# See https://dev.twitter.com/docs/auth/oauth for more information 
-# on Twitter's OAuth implementation.
 
-CONSUMER_KEY = 'ntMZO2D4ssLF1DUqgrEeMQ'
-CONSUMER_SECRET ='Ab1jaaHQgm2GVahyheUTYf0kmhziFmsdcJrpN23tkc'
-OAUTH_TOKEN = '356958426-QEqw72LhmEjoMRCGXlQkpO8UC4yBhSLxqQ5UykDo'
-OAUTH_TOKEN_SECRET = 'SA86q7qxm7LY2ZJqK2sx3NRfMxIv93C7oDOxWgyM2CDO2'
+
+CONSUMER_KEY = ''
+CONSUMER_SECRET =''
+OAUTH_TOKEN = ''
+OAUTH_TOKEN_SECRET = ''
 
 auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
                            CONSUMER_KEY, CONSUMER_SECRET)
